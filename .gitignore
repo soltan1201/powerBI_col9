@@ -1,1 +1,3 @@
 venv/*
+src/conf_matrix/*
+!src/conf_matrix/.gitkeep

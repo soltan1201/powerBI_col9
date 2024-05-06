@@ -6,10 +6,56 @@ import pandas as pd
 from millify import millify
 from streamlit_extras.metric_cards import style_metric_cards
 import plotly.graph_objects as go
-import altair as alt
+# import altair as alt
+import ipywidgets
 import plotly.express as px
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
+classes = [3,4,12,15,18,21,22,29,33] # 
+columnsInt = [
+    'Forest Formation', 'Savanna Formation', 'Grassland', 'Pasture',
+    'Agriculture', 'Mosaic of Uses', 'Non vegetated area', 'Rocky Outcrop', 'Water'
+] # 
+colors = [ 
+    "#1f8d49", "#7dc975", "#d6bc74", "#edde8e", "#f5b3c8", 
+    "#ffefc3", "#db4d4f",  "#FF8C00", "#0000FF"
+] # 
+# bacia_sel = '741'
+
+dict_class = {
+    '3': 'Forest Formation', 
+    '4': 'Savanna Formation', 
+    '12': 'Grassland', 
+    '15': 'Pasture', 
+    '18': 'Agriculture', 
+    '21': 'Mosaic of Uses', 
+    '22': 'Non vegetated area', 
+    '29': 'Rocky Outcrop', 
+    '33': 'Water'
+}
+
+dict_classNat = {
+    '3': 'Natural', 
+    '4': 'Natural', 
+    '12': 'Natural', 
+    '15': 'Antrópico', 
+    '18': 'Antrópico', 
+    '21': 'Antrópico', 
+    '22': 'Antrópico', 
+    '29': 'Natural', 
+    '33': 'Natural'
+}
+dict_ColorNat = {
+    'Natural': '#32a65e',
+    'Antrópico': '#FFFFB2',
+}
+dict_colors = {}
+for ii, cclass in enumerate(classes):
+    dict_colors[dict_class[str(cclass)]] = colors[ii]
+dict_colors['Natural'] = '#32a65e'
+dict_colors['Antrópico'] = '#FFFFB2'
+dict_colors['cobertura'] = '#FFFFFF'
 
 def get_chart_Plot_plotlyX(dfAccur, nbacia= 741, nModel= "RF", vers= '5'):
     # colunas = ["Accuracy","Accuracy_Bal","Precision","ReCall", "F1-Score","Jaccard"]
@@ -42,7 +88,7 @@ def get_plotBar_Acc_Disaggrements(dfAccur, nbacia= 741, nModel= "RF", vers= '5')
                 (dfAccur["version"] == str(vers))
             ]
     
-    lstCol = ["quantity diss","alloc dis","global_accuracy",]
+    lstCol = ["global_accuracy","quantity diss","alloc dis",]
     dictNameAgg = {
         "global_accuracy": 'Accuracia Media',
         "quantity diss": 'Discordância de alocação',
@@ -95,6 +141,89 @@ def get_plotBar_Acc_Disaggrements(dfAccur, nbacia= 741, nModel= "RF", vers= '5')
     return figAgg
 
 
+def plotPieYear(dfAccur, nbacia= 741, nModel= "RF", vers= '5', yyear= 1985):
+    
+    dfTemp = dfAccur[
+                (dfAccur["Bacia"] == nbacia) & 
+                (dfAccur["Models"] == nModel) &
+                (dfAccur["version"] == str(vers)) &
+                (dfAccur["year"] == yyear)
+            ]
+
+    trace1 = go.Pie(
+                values = dfTemp['area'],
+                labels = dfTemp['classe'],
+                hole= 0.7,
+                # sort= False,
+                direction='clockwise',
+                textinfo= 'percent',
+                textposition='inside',
+                marker=dict(colors=dfTemp["cob_color"],
+                              line=dict(color='#FFFFFF', width=1)),
+                showlegend= False,
+                title= str(yyear)
+               )
+    fig2pie = go.FigureWidget(data=[trace1])          
+    fig2pie.update_layout(
+                    autosize=True,
+                    width=450,
+                    height=450,
+                )
+
+    return fig2pie
+
+
+def buildingPlots_Cruzando_Class(dfAccur, nbacia= 741, nModel= "RF", vers= '5', lstclass= [3,4,12]):
+
+    tipoclase = "Natural"
+    if 15 in lstclass:
+        tipoclase= "Antrôpica"
+
+    dfTemp = dfAccur[
+                (dfAccur["Bacia"] == nbacia) & 
+                (dfAccur["Models"] == nModel) &
+                (dfAccur["version"] == str(vers))            
+            ]
+    
+    figPlotCr = make_subplots(rows= 1, cols= 1)
+    for cc, nclase in enumerate(lstclass):        
+        # print(colors[cc], nclase)          
+        figPlotCr.add_trace(
+                go.Scatter(
+                    x= dfTemp[dfTemp['classe'] == nclase]['year'], 
+                    y= dfTemp[dfTemp['classe'] == nclase]['area'], 
+                    marker_color= dict_colors[dict_class[str(nclase)]],
+                    marker_symbol= 'star-open',
+                    stackgroup='one',
+                    name= dict_class[str(nclase)] 
+                ),
+                row= 1, col= 1
+            )
+        figPlotCr.update_xaxes(title_text= dict_class[str(nclase)], row= 1, col= 1)
+
+        # dictPmtros['yaxis'] = dictPmtrosPlot
+
+    # figPlotCr.update_layout(dictPmtros)
+    figPlotCr.update_layout(
+            height= 500, 
+            width= 700, 
+            title_text="Plot Áreas de classes " + tipoclase, 
+            showlegend=True,
+            legend= dict(
+                        orientation="h", 
+                        x= 0.01,  
+                        y= -0.15, 
+                        font=dict(
+                            family="Courier",
+                            size=24,
+                            color="black"
+                        ),
+                    ),
+    )
+
+    return figPlotCr
+
+
 # cache the dataset
 @st.cache_data(ttl=3600)
 def load_data_Acc():
@@ -126,17 +255,25 @@ def load_data_Aggrement():
     nameTablesGlob = "regAggrementsAccGlobalCol9.csv"    
     dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob))
     # print("=================================")
-    colInts = [kk for kk in dfAggBacia.columns]
-    # print("colunas listadas \n   ==> ",colInts)
-    # colInts.remove('Unnamed: 0')
-    dfAggBacia = dfAggBacia[colInts]
-
     dfAggBacia['version'] = dfAggBacia['version'].astype(str)
     dfAggBacia['Bacia'] = dfAggBacia['Bacia'].astype(str)
     return dfAggBacia
 
+def load_data_Areas():
+    base_path = os.getcwd()
+    base_path = os.path.join(base_path, 'dbase')
+    nameTablesGlob = "areaXclasse_CAATINGA_Col9.0.csv"    
+    dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob))
+    # print("=================================")
+    dfAggBacia['version'] = dfAggBacia['version'].astype(str)
+    dfAggBacia['Bacia'] = dfAggBacia['Bacia'].astype(str)
+
+    return dfAggBacia
+
+dataAreas = load_data_Areas()
 dataAcc = load_data_Acc()
 dataAggAc = load_data_Aggrement()
+
 # print(dataAcc['Bacia'].unique())
 # print("Bacia loaded == \n", dataAcc[dataAcc['Bacia'] == '744'].head())
 modelos = ['RF', 'GTB']
@@ -157,10 +294,7 @@ lstSelBa = ['bacia_' + str(kk) for kk in nameBacias]
 modeloAct = 'RF'
 baciaAct = "Caatinga"
 versionAct = '5'
-# 'Accuracy', 'Accuracy_Bal', 'Precision', 'ReCall', 'F1-Score', 'Jaccard'
-accMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Accuracy'].mean() * 100
-preMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Precision'].mean() * 100
-reCMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['ReCall'].mean() * 100 
+
 
 dash_1 = st.container()
 dash_2 = st.container()
@@ -198,6 +332,13 @@ selected_Versions = st.sidebar.selectbox("Selecionar Versão", vers)
 #     versionAct = selected_Versions
 
 if optionAnalises == 'Accuracy': 
+    
+
+    # 'Accuracy', 'Accuracy_Bal', 'Precision', 'ReCall', 'F1-Score', 'Jaccard'
+    accMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Accuracy'].mean() * 100
+    preMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Precision'].mean() * 100
+    reCMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['ReCall'].mean() * 100 
+
     modeloAct = dictModel[optionModel]
     baciaAct = selected_Basin.replace('bacia_', '').replace(" 🌵", "")
     versionAct = selected_Versions
@@ -243,5 +384,28 @@ if optionAnalises == 'Accuracy':
         figPlotAgg =get_plotBar_Acc_Disaggrements(dataAggAc, baciaAct, modeloAct, versionAct)
         st.plotly_chart(figPlotAgg)
 
-elif optionAnalises == 'Area by class':   
-    st.write("tenemos um analises aqui Area")
+elif optionAnalises == 'Area by class': 
+    lstclass_part1 = [3,4,12,33]
+    lstclass_part2 = [15,21,18,22]
+    # st.write("tenemos um analises aqui Area")
+    with dash_2:
+        colAr1, colAr2 = st.columns(2)
+
+        with colAr1:
+            # st.write("gráfico ano 1985")
+            figPlotPie85 =  plotPieYear(dataAreas, baciaAct, modeloAct, versionAct, 1985)
+            st.plotly_chart(figPlotPie85)
+        with colAr2:
+            # st.write("gráfico ano 2021")
+            figPlotPie23 =  plotPieYear(dataAreas, baciaAct, modeloAct, versionAct, 2021)
+            st.plotly_chart(figPlotPie23)
+
+    with dash_3:
+        # st.write("tenemos um analises aqui Area")
+        figPlotClass = buildingPlots_Cruzando_Class(dataAreas, baciaAct, modeloAct, versionAct, lstclass_part1)
+        st.plotly_chart(figPlotClass)
+
+    with dash_4:
+        # st.write("tenemos um analises aqui Area")
+        figPlotClass = buildingPlots_Cruzando_Class(dataAreas, baciaAct, modeloAct, versionAct, lstclass_part2)
+        st.plotly_chart(figPlotClass)
