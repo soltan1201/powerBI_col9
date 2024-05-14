@@ -8,21 +8,15 @@ def load_data_Acc():
     base_path = os.getcwd()
     base_path = os.path.join(base_path, 'dbase')
     nameTablesGlob = "regMetricsAccGlobalCol9.csv"        
-    nameTablesBacia = "regMetricsAccBaciasCol9.csv"
     dfAccYY = pd.read_csv(os.path.join(base_path, nameTablesGlob))
-    dfAccBacia = pd.read_csv(os.path.join(base_path,nameTablesBacia))
 
-    colInts = [kk for kk in dfAccBacia.columns]
+    colInts = [kk for kk in dfAccYY.columns]
     print("colunas listadas \n   ==> ",colInts)
     colInts.remove('Unnamed: 0')
-    dfAccBacia = dfAccBacia[colInts]
-
-    dfAccYY['Bacia'] = ['Caatinga'] * dfAccYY.shape[0]
     dfAccYY = dfAccYY[colInts]
-
-    dfAcc = pd.concat([dfAccYY, dfAccBacia], ignore_index=True, axis=0)
-
-    return dfAcc
+    print(dfAccYY['Models'].unique())
+    print("dfAccYY ", dfAccYY.head())
+    return dfAccYY
 
 
 modelos = ['RF', 'GTB']

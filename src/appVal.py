@@ -140,7 +140,6 @@ def get_plotBar_Acc_Disaggrements(dfAccur, nbacia= 741, nModel= "RF", vers= '5')
     
     return figAgg
 
-
 def plotPieYear(dfAccur, nbacia= 741, nModel= "RF", vers= '5', yyear= 1985):
     
     dfTemp = dfAccur[
@@ -149,6 +148,7 @@ def plotPieYear(dfAccur, nbacia= 741, nModel= "RF", vers= '5', yyear= 1985):
                 (dfAccur["version"] == str(vers)) &
                 (dfAccur["year"] == yyear)
             ]
+    # print("mostrar os dados \n ", dfTemp.head(2))
 
     trace1 = go.Pie(
                 values = dfTemp['area'],
@@ -161,13 +161,15 @@ def plotPieYear(dfAccur, nbacia= 741, nModel= "RF", vers= '5', yyear= 1985):
                 marker=dict(colors=dfTemp["cob_color"],
                               line=dict(color='#FFFFFF', width=1)),
                 showlegend= False,
-                title= str(yyear)
+                # title= "Cobertura " + str(yyear)
                )
     fig2pie = go.FigureWidget(data=[trace1])          
     fig2pie.update_layout(
+                    # title_font=dict(size=30),
                     autosize=True,
-                    width=450,
-                    height=450,
+                    width=400,
+                    height=400,
+                    annotations=[dict(text=str(yyear), x=0.495, y=0.5, font_size=28, showarrow=False)]
                 )
 
     return fig2pie
@@ -226,62 +228,79 @@ def buildingPlots_Cruzando_Class(dfAccur, nbacia= 741, nModel= "RF", vers= '5', 
 
 # cache the dataset
 @st.cache_data(ttl=3600)
-def load_data_Acc():
+def load_data_Acc(nameBac, xvers, modelo_act):
     base_path = os.getcwd()
     base_path = os.path.join(base_path, 'dbase')
-    nameTablesGlob = "regMetricsAccGlobalCol9.csv"        
-    nameTablesBacia = "regMetricsAccBaciasCol9.csv"
-    dfAccYY = pd.read_csv(os.path.join(base_path, nameTablesGlob))
-    dfAccBacia = pd.read_csv(os.path.join(base_path,nameTablesBacia))
+    nameTablesGlob = f"regMetricsAccs_{modelo_act}_Col9.csv"        
+    dfAccYY = pd.read_csv(os.path.join(base_path, nameTablesGlob), index_col=False, low_memory=False)
     # print("=================================")
-    # print("", dfAccBacia.head())
-
-    colInts = [kk for kk in dfAccBacia.columns]
+    # print("", dfAccYY.head())
+    colInts = [kk for kk in dfAccYY.columns]
     # print("colunas listadas \n   ==> ",colInts)
     colInts.remove('Unnamed: 0')
-    dfAccBacia = dfAccBacia[colInts]
-
-    dfAccYY['Bacia'] = ['Caatinga'] * dfAccYY.shape[0]
     dfAccYY = dfAccYY[colInts]
-    
-    dfAcc = pd.concat([dfAccYY, dfAccBacia], ignore_index=True, axis=0)
-    dfAcc['version'] = dfAcc['version'].astype(str)
-    dfAcc['Bacia'] = dfAcc['Bacia'].astype(str)
-    return dfAcc
+    # lstIndex = ['Accuracy', 'Accuracy_Bal', 'Precision', 'ReCall', 'F1-Score', 'Jaccard']
+    # for colInd in lstIndex:
+    #     dfAccYY[colInd] = dfAccYY[colInd].apply(lambda x: round(x * 100, 0))
 
-def load_data_Aggrement():
+    dfAccYY['version'] = dfAccYY['version'].astype(str)
+    dfAccYY['Bacia'] = dfAccYY['Bacia'].astype(str)
+
+    # print(dfAccYY.head())
+    return dfAccYY
+
+def load_data_Aggrement(nameBac, xvers, modelo_act):
     base_path = os.getcwd()
     base_path = os.path.join(base_path, 'dbase')
-    nameTablesGlob = "regAggrementsAccGlobalCol9.csv"    
-    dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob))
+    nameTablesGlob = f"regAggrementsAcc_{modelo_act}_Col9.csv"    
+    dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob), index_col=False, low_memory=False)
+    # print(dfAggBacia['Models'].unique())
     # print("=================================")
     dfAggBacia['version'] = dfAggBacia['version'].astype(str)
     dfAggBacia['Bacia'] = dfAggBacia['Bacia'].astype(str)
     return dfAggBacia
 
-def load_data_Areas():
+def load_data_Areas(nameBac, xvers, modelo_act):
     base_path = os.getcwd()
     base_path = os.path.join(base_path, 'dbase')
-    nameTablesGlob = "areaXclasse_CAATINGA_Col9.0.csv"    
-    dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob))
+    nameTablesGlob = f"areaXclasse_CAATINGA_{modelo_act}_Col9.0.csv"    
+    dfAggBacia = pd.read_csv(os.path.join(base_path, nameTablesGlob), index_col=False, low_memory=False)
     # print("=================================")
     dfAggBacia['version'] = dfAggBacia['version'].astype(str)
     dfAggBacia['Bacia'] = dfAggBacia['Bacia'].astype(str)
 
+    colInts = [kk for kk in dfAggBacia.columns]
+    # print("colunas listadas \n   ==> ",colInts)
+    if 'Unnamed: 0' in colInts:
+        colInts.remove('Unnamed: 0')
+    dfAggBacia = dfAggBacia[colInts]
+    dfAggBacia = dfAggBacia[(dfAggBacia['Bacia'] == nameBac) & (
+                                dfAggBacia['version'] == xvers)]
     return dfAggBacia
 
-dataAreas = load_data_Areas()
-dataAcc = load_data_Acc()
-dataAggAc = load_data_Aggrement()
+def load_MatrixConfution(nameBac, xvers, modelo_act, myear):
+    base_path = os.getcwd()
+    base_path = os.path.join(base_path, 'conf_matrix')
+    nameMC = f"CM_{nameBac}_{modelo_act}_{myear}_{xvers}.csv"
+    pathTable = os.path.join(base_path, nameMC)
+    print(" path table => ", pathTable)
+    dfMC = pd.read_csv(pathTable)
+    return dfMC
+
 
 # print(dataAcc['Bacia'].unique())
 # print("Bacia loaded == \n", dataAcc[dataAcc['Bacia'] == '744'].head())
 modelos = ['RF', 'GTB']
+posclass = ['Gap-fill', 'Spatial', 'Temporal', 'toExport']
 dictModel = {
     'Random Forest': 'RF', 
-    'Gradient Tree Boosting': 'GTB'
+    'Gradient Tree Boosting': 'GTB',
+    'Gap-fill': 'Gap-fill', 
+    'Spatial': 'Spatial', 
+    'Temporal': 'Temporal', 
+    'toExport': 'toExport'
 }
-vers = ['5', '6', '7']
+vers = ['5', '6', '7', '9']
 nameBacias = [
       '741', '7421','7422','744','745','746','751','752','763',  
       '753', '754','755','756','757','758','759','7621','7622',
@@ -294,12 +313,16 @@ lstSelBa = ['bacia_' + str(kk) for kk in nameBacias]
 modeloAct = 'RF'
 baciaAct = "Caatinga"
 versionAct = '5'
-
+accCol8 = 75.4
+discAloc = 17.0 
+discQual = 7.6
 
 dash_1 = st.container()
 dash_2 = st.container()
 dash_3 = st.container()
 dash_4 = st.container()
+dash_5 = st.container()
+# dash_4 = st.container()
 with dash_1:
     st.markdown("<h2 style='text-align: center;'>Dashboard Maps Validation </h2>", unsafe_allow_html=True)
     st.write("")
@@ -309,14 +332,24 @@ sidebarApp = st.sidebar
 with sidebarApp:
     sidebarApp.header("📈  Painel de Validação ")
 
-
+optionPost = st.sidebar.radio(
+                    "selecionar tipo Classificação",
+                    ('Class...', 'Pos-Class...'),
+                    horizontal= True
+                )
 optionAnalises = st.sidebar.selectbox(
                     "seleciona Analises",
                     ('Accuracy', 'Area by class') # , 'Aggrement'
                 )
-optionModel = st.sidebar.selectbox(
+if optionPost == 'Class...':
+    optionModel = st.sidebar.selectbox(
                     "seleciona Modelo",
                     ('Random Forest', 'Gradient Tree Boosting' )
+                )
+else:
+    optionModel = st.sidebar.selectbox(
+                    "seleciona Filtro pos-classificação",
+                    posclass
                 )
 selected_Basin = st.sidebar.selectbox(
                     "Selecionar Bacia ou Bioma", 
@@ -331,37 +364,44 @@ selected_Versions = st.sidebar.selectbox("Selecionar Versão", vers)
 # if selected_Versions:
 #     versionAct = selected_Versions
 
-if optionAnalises == 'Accuracy': 
-    
+if optionAnalises == 'Accuracy':      
 
+    modeloAct = dictModel[optionModel]
+    baciaAct = selected_Basin.replace('bacia_', '').replace(" 🌵", "")
+    versionAct = selected_Versions
+
+    dataAcc = load_data_Acc(baciaAct, versionAct, modeloAct)
+    dataAggAc = load_data_Aggrement(baciaAct, versionAct, modeloAct)
+
+    # print(f"tenemos uma analises aqui de  Accuracy para os dados {modeloAct}| {baciaAct} | {versionAct}")
+    # st.write(f"tenemos uma analises aqui de  Accuracy para os dados {modeloAct}| {baciaAct} | {versionAct}")
+    
     # 'Accuracy', 'Accuracy_Bal', 'Precision', 'ReCall', 'F1-Score', 'Jaccard'
     accMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Accuracy'].mean() * 100
     preMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['Precision'].mean() * 100
     reCMean = dataAcc[dataAcc['Bacia'] == 'Caatinga']['ReCall'].mean() * 100 
 
-    modeloAct = dictModel[optionModel]
-    baciaAct = selected_Basin.replace('bacia_', '').replace(" 🌵", "")
-    versionAct = selected_Versions
-    # print(f"tenemos uma analises aqui de  Accuracy para os dados {modeloAct}| {baciaAct} | {versionAct}")
-    # st.write(f"tenemos uma analises aqui de  Accuracy para os dados {modeloAct}| {baciaAct} | {versionAct}")
-    
-    with dash_2:
+    with dash_3:
         col1,col2,col3 = st.columns(3)
-        # with col1: 
-        #     "##### Accuracy Mean" 
-        #     "% " + millify(accMean, precision=2)
-        col1.metric(label="Accuracy Mean", value= millify(accMean, precision=1) + " %")
-        col2.metric(label="Precision Mean", value= millify(preMean, precision=1) + " %")
-        col3.metric(label="ReCall Mean", value= millify(reCMean, precision=1) + " %")
-
-    # plots grp1
-    with  dash_3:
-        ## Display the figure in Streamlit
-        figPlot = get_chart_Plot_plotlyX(dataAcc, baciaAct, modeloAct, versionAct)
-        st.plotly_chart(figPlot)
+        with col1: 
+            st.metric(
+                label="Accuracy Mean", 
+                value= str(round(accMean, 2)) + " %",
+                delta= round(accMean - accCol8, 2)
+            )
+        with col2:
+            st.metric(
+                label="Precision Mean", 
+                value= str(round(preMean, 2)) + " %"
+            )
+        with col3:
+            st.metric(
+                label="ReCall Mean", 
+                value= str(round(reCMean, 2)) + " %",
+            )
 
     # dataAggAc
-    with dash_3:
+    with dash_2:
         dfSpec = dataAggAc[
                     (dataAggAc["Bacia"] == baciaAct) & 
                     (dataAggAc["Models"] == modeloAct) &
@@ -375,26 +415,61 @@ if optionAnalises == 'Accuracy':
         # with col1: 
         #     "##### Accuracy Mean" 
         #     "% " + millify(accMean, precision=2)
-        colAgg1.metric(label="Accuracia", value= millify(AccAct, precision=2) + " %")
-        colAgg2.metric(label="Discordância de alocação", value= millify(quantDis, precision=2) + " %")
-        colAgg3.metric(label="Discordância de quantidade", value= millify(allocDis, precision=2) + " %")
-
-    with dash_4:
-         ## Display the figure in Streamlit
+        with colAgg1: 
+            st.metric(
+                label="Accuracia", 
+                value= str(round(AccAct, 2)) + " %",
+                delta= round(AccAct - accCol8, 2)   
+            )
+        with colAgg2:
+            st.metric(
+                label="Discordância de alocação", 
+                value= str(round(quantDis, 2)) + " %",
+                # menor erro de quantidade é melhor
+                delta= round(discQual - quantDis, 2)  
+                
+            )
+        with colAgg3:
+            st.metric(
+                label="Discordância de quantidade", 
+                value= str(round(allocDis, 2)) + " %",
+                # menor erro de allocação é melhor
+                delta= round(discAloc - allocDis, 2)
+            )
+        ## Display the figure in Streamlit
         figPlotAgg =get_plotBar_Acc_Disaggrements(dataAggAc, baciaAct, modeloAct, versionAct)
         st.plotly_chart(figPlotAgg)
+        
+    # plots grp1
+    with dash_4:        
+        ## Display the figure in Streamlit
+        figPlot = get_chart_Plot_plotlyX(dataAcc, baciaAct, modeloAct, versionAct)
+        st.plotly_chart(figPlot)
 
-elif optionAnalises == 'Area by class': 
+    with dash_5:
+        st.write("Error de Omissão ")
+        dfMatConf = load_MatrixConfution(baciaAct, versionAct, modeloAct, 2020)
+        st.dataframe(dfMatConf)
+
+elif optionAnalises == 'Area by class':
+    print("updating model ", optionModel)
+    modeloAct = dictModel[optionModel]
+    baciaAct = selected_Basin.replace('bacia_', '').replace(" 🌵", "")
+    versionAct = selected_Versions
+
     lstclass_part1 = [3,4,12,33]
     lstclass_part2 = [15,21,18,22]
+    dataAreas = load_data_Areas(baciaAct, versionAct, modeloAct)
     # st.write("tenemos um analises aqui Area")
     with dash_2:
         colAr1, colAr2 = st.columns(2)
 
         with colAr1:
             # st.write("gráfico ano 1985")
+            print(f"dataAreas => baciaAct {baciaAct} | modeloAct {modeloAct} | versionAct {versionAct} | 1985")
             figPlotPie85 =  plotPieYear(dataAreas, baciaAct, modeloAct, versionAct, 1985)
             st.plotly_chart(figPlotPie85)
+
         with colAr2:
             # st.write("gráfico ano 2021")
             figPlotPie23 =  plotPieYear(dataAreas, baciaAct, modeloAct, versionAct, 2021)
