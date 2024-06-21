@@ -1,0 +1,465 @@
+,area,classe,year,Models,Bacia,version,cobertura,cob_level1,cob_color,nat_color,total
+0,158100.7196016564,3,2022,SpatialV3su,746,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+1,1415291.7596715917,4,2022,SpatialV3su,746,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+2,229549.67631788447,21,2022,SpatialV3su,746,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+3,975.9143602094113,22,2022,SpatialV3su,746,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+4,2785.9620012480727,33,2022,SpatialV3su,746,22,Water,Natural,#112013,#32a65e,cobertura
+5,114166.64246340816,3,2023,SpatialV3su,746,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+6,1393696.3357175677,4,2023,SpatialV3su,746,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+7,294302.325455464,21,2023,SpatialV3su,746,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+8,1805.0408943973227,22,2023,SpatialV3su,746,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+9,2733.687421760855,33,2023,SpatialV3su,746,22,Water,Natural,#112013,#32a65e,cobertura
+10,1.6334625366210938,3,2022,SpatialV3su,778,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+11,484.5347633325,4,2022,SpatialV3su,778,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+12,197.07644848178103,12,2022,SpatialV3su,778,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+13,218.61709381058117,21,2022,SpatialV3su,778,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+14,20.992223167963942,22,2022,SpatialV3su,778,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+15,1.4615006225585936,3,2023,SpatialV3su,778,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+16,476.7964857688313,4,2023,SpatialV3su,778,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+17,195.09601393313025,12,2023,SpatialV3su,778,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+18,227.37025503224112,21,2023,SpatialV3su,778,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+19,22.129735972684955,22,2023,SpatialV3su,778,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+20,293709.56668546924,3,2022,SpatialV3su,751,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+21,777207.5899134635,4,2022,SpatialV3su,751,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+22,30034.702674157164,12,2022,SpatialV3su,751,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+23,202449.3655030387,21,2022,SpatialV3su,751,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+24,4468.084997110167,22,2022,SpatialV3su,751,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+25,19436.96837569277,33,2022,SpatialV3su,751,22,Water,Natural,#112013,#32a65e,cobertura
+26,283277.0212970658,3,2023,SpatialV3su,751,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+27,745374.5814600952,4,2023,SpatialV3su,751,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+28,28170.816606886536,12,2023,SpatialV3su,751,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+29,243266.00176278636,21,2023,SpatialV3su,751,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+30,5342.836253107399,22,2023,SpatialV3su,751,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+31,21875.02076897808,33,2023,SpatialV3su,751,22,Water,Natural,#112013,#32a65e,cobertura
+32,28115.61053863282,3,2022,SpatialV3su,744,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+33,5032123.408630576,4,2022,SpatialV3su,744,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+34,34412.11722249492,12,2022,SpatialV3su,744,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+35,2113647.006678874,21,2022,SpatialV3su,744,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+36,7703.406030738194,22,2022,SpatialV3su,744,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+37,9073.471897362571,33,2022,SpatialV3su,744,22,Water,Natural,#112013,#32a65e,cobertura
+38,17422.78451608579,3,2023,SpatialV3su,744,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+39,4577889.929552058,4,2023,SpatialV3su,744,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+40,31082.27185337889,12,2023,SpatialV3su,744,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+41,2566146.662757889,21,2023,SpatialV3su,744,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+42,22691.30957463258,22,2023,SpatialV3su,744,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+43,9842.062744549892,33,2023,SpatialV3su,744,22,Water,Natural,#112013,#32a65e,cobertura
+44,198380.0841910727,3,2022,SpatialV3su,754,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+45,3180409.8886335487,4,2022,SpatialV3su,754,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+46,12983.147358650696,12,2022,SpatialV3su,754,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+47,3860406.361561098,21,2022,SpatialV3su,754,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+48,4401.984002277218,22,2022,SpatialV3su,754,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+49,47071.78777917065,33,2022,SpatialV3su,754,22,Water,Natural,#112013,#32a65e,cobertura
+50,192345.33096361757,3,2023,SpatialV3su,754,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+51,2659004.3021049644,4,2023,SpatialV3su,754,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+52,13527.049066744345,12,2023,SpatialV3su,754,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+53,4356391.596141391,21,2023,SpatialV3su,754,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+54,20952.031713256736,22,2023,SpatialV3su,754,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+55,61432.943535875056,33,2023,SpatialV3su,754,22,Water,Natural,#112013,#32a65e,cobertura
+56,39373.51943961737,3,2022,SpatialV3su,771,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+57,355568.5736575743,4,2022,SpatialV3su,771,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+58,403.1318099464807,12,2022,SpatialV3su,771,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+59,1849075.567943017,21,2022,SpatialV3su,771,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+60,1426.9194366784898,22,2022,SpatialV3su,771,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+61,2471.4832385276795,33,2022,SpatialV3su,771,22,Water,Natural,#112013,#32a65e,cobertura
+62,47204.31320576624,3,2023,SpatialV3su,771,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+63,374759.60460606735,4,2023,SpatialV3su,771,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+64,1011.291596441483,12,2023,SpatialV3su,771,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+65,1819580.9113357167,21,2023,SpatialV3su,771,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+66,2927.53313743389,22,2023,SpatialV3su,771,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+67,2835.5416439155515,33,2023,SpatialV3su,771,22,Water,Natural,#112013,#32a65e,cobertura
+68,86788.89533704762,3,2022,SpatialV3su,7742,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+69,241647.98631442885,4,2022,SpatialV3su,7742,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+70,14821.029538780733,12,2022,SpatialV3su,7742,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+71,1531667.2366442017,21,2022,SpatialV3su,7742,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+72,2383.053255544972,22,2022,SpatialV3su,7742,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+73,1235.4622295510926,33,2022,SpatialV3su,7742,22,Water,Natural,#112013,#32a65e,cobertura
+74,85383.35210034513,3,2023,SpatialV3su,7742,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+75,245395.66564465853,4,2023,SpatialV3su,7742,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+76,29864.31918369702,12,2023,SpatialV3su,7742,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+77,1489693.1790354108,21,2023,SpatialV3su,7742,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+78,26809.98486334596,22,2023,SpatialV3su,7742,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+79,1397.162492181535,33,2023,SpatialV3su,7742,22,Water,Natural,#112013,#32a65e,cobertura
+80,15130.65565744668,3,2022,SpatialV3su,765,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+81,725694.789352123,4,2022,SpatialV3su,765,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+82,1391928.2085127851,21,2022,SpatialV3su,765,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+83,9809.716284366285,22,2022,SpatialV3su,765,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+84,18719.22722635883,33,2022,SpatialV3su,765,22,Water,Natural,#112013,#32a65e,cobertura
+85,13652.240595743871,3,2023,SpatialV3su,765,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+86,675821.6744361259,4,2023,SpatialV3su,765,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+87,1439469.0647245366,21,2023,SpatialV3su,765,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+88,14849.235434323373,22,2023,SpatialV3su,765,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+89,17490.381842363087,33,2023,SpatialV3su,765,22,Water,Natural,#112013,#32a65e,cobertura
+90,1101910.3834334577,4,2022,SpatialV3su,7615,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+91,785.3420286438059,12,2022,SpatialV3su,7615,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+92,1465621.7140329024,21,2022,SpatialV3su,7615,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+93,2489.143356346282,22,2022,SpatialV3su,7615,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+94,17793.32483875433,33,2022,SpatialV3su,7615,22,Water,Natural,#112013,#32a65e,cobertura
+95,942203.2727403844,4,2023,SpatialV3su,7615,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+96,2568.6187768249465,12,2023,SpatialV3su,7615,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+97,1610103.8947948124,21,2023,SpatialV3su,7615,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+98,15399.03071231467,22,2023,SpatialV3su,7615,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+99,18325.09066570249,33,2023,SpatialV3su,7615,22,Water,Natural,#112013,#32a65e,cobertura
+100,1037716.7124473912,4,2022,SpatialV3su,7618,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+101,11791.079047259038,12,2022,SpatialV3su,7618,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+102,766453.8529200463,21,2022,SpatialV3su,7618,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+103,1183.5712519716049,22,2022,SpatialV3su,7618,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+104,1097.7535164761127,33,2022,SpatialV3su,7618,22,Water,Natural,#112013,#32a65e,cobertura
+105,1007295.2038434632,4,2023,SpatialV3su,7618,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+106,12284.692024046992,12,2023,SpatialV3su,7618,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+107,792759.4882562651,21,2023,SpatialV3su,7618,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+108,4737.404017052989,22,2023,SpatialV3su,7618,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+109,1166.18104237593,33,2023,SpatialV3su,7618,22,Water,Natural,#112013,#32a65e,cobertura
+110,37023.979734171415,3,2022,SpatialV3su,7614,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+111,649337.523720678,4,2022,SpatialV3su,7614,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+112,1360.4257591752837,12,2022,SpatialV3su,7614,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+113,681832.6948520071,21,2022,SpatialV3su,7614,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+114,580.7399782124357,22,2022,SpatialV3su,7614,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+115,1922.8977057718691,33,2022,SpatialV3su,7614,22,Water,Natural,#112013,#32a65e,cobertura
+116,32890.46724485226,3,2023,SpatialV3su,7614,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+117,542337.0307897114,4,2023,SpatialV3su,7614,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+118,1400.3158899983969,12,2023,SpatialV3su,7614,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+119,788850.315629049,21,2023,SpatialV3su,7614,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+120,3639.982936379423,22,2023,SpatialV3su,7614,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+121,2940.1492600716647,33,2023,SpatialV3su,7614,22,Water,Natural,#112013,#32a65e,cobertura
+122,714197.6744022554,4,2022,SpatialV3su,7616,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+123,15513.0240698815,12,2022,SpatialV3su,7616,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+124,689088.2734866098,21,2022,SpatialV3su,7616,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+125,2360.837395768493,22,2022,SpatialV3su,7616,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+126,142.54464219398682,33,2022,SpatialV3su,7616,22,Water,Natural,#112013,#32a65e,cobertura
+127,616298.7006772918,4,2023,SpatialV3su,7616,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+128,13640.574579870572,12,2023,SpatialV3su,7616,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+129,778341.1511464042,21,2023,SpatialV3su,7616,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+130,12887.049054301431,22,2023,SpatialV3su,7616,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+131,134.8785388532576,33,2023,SpatialV3su,7616,22,Water,Natural,#112013,#32a65e,cobertura
+132,7527.923049333906,3,2022,SpatialV3su,766,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+133,919934.7252469888,4,2022,SpatialV3su,766,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+134,1562915.3545886427,21,2022,SpatialV3su,766,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+135,4829.188230727002,22,2022,SpatialV3su,766,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+136,5428.888763707333,33,2022,SpatialV3su,766,22,Water,Natural,#112013,#32a65e,cobertura
+137,7395.946581477502,3,2023,SpatialV3su,766,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+138,838986.2359631922,4,2023,SpatialV3su,766,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+139,1640709.339188489,21,2023,SpatialV3su,766,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+140,8124.2140542117795,22,2023,SpatialV3su,766,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+141,5420.344091972592,33,2023,SpatialV3su,766,22,Water,Natural,#112013,#32a65e,cobertura
+142,3801.389623112327,3,2022,SpatialV3su,758,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+143,767099.9824115481,4,2022,SpatialV3su,758,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+144,13685.480412963883,12,2022,SpatialV3su,758,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+145,1081778.7432499388,21,2022,SpatialV3su,758,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+146,4673.816709201815,22,2022,SpatialV3su,758,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+147,5949.223209014033,33,2022,SpatialV3su,758,22,Water,Natural,#112013,#32a65e,cobertura
+148,3913.1437498804103,3,2023,SpatialV3su,758,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+149,742783.0620452259,4,2023,SpatialV3su,758,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+150,15071.329326903147,12,2023,SpatialV3su,758,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+151,1101304.1614766717,21,2023,SpatialV3su,758,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+152,7128.7907064835135,22,2023,SpatialV3su,758,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+153,6788.148310608062,33,2023,SpatialV3su,758,22,Water,Natural,#112013,#32a65e,cobertura
+154,423868.0648130361,4,2022,SpatialV3su,767,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+155,393352.0897387337,21,2022,SpatialV3su,767,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+156,475.9148454405307,22,2022,SpatialV3su,767,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+157,16025.317766848171,33,2022,SpatialV3su,767,22,Water,Natural,#112013,#32a65e,cobertura
+158,408419.79352248233,4,2023,SpatialV3su,767,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+159,409069.1948192073,21,2023,SpatialV3su,767,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+160,1069.6389561904025,22,2023,SpatialV3su,767,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+161,15162.759866168357,33,2023,SpatialV3su,767,22,Water,Natural,#112013,#32a65e,cobertura
+162,46343.1469267192,3,2022,SpatialV3su,757,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+163,731557.0104926059,4,2022,SpatialV3su,757,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+164,11076.296521542748,12,2022,SpatialV3su,757,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+165,1870012.9284168435,21,2022,SpatialV3su,757,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+166,7080.158863572647,22,2022,SpatialV3su,757,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+167,18707.41117933703,33,2022,SpatialV3su,757,22,Water,Natural,#112013,#32a65e,cobertura
+168,47632.87899709976,3,2023,SpatialV3su,757,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+169,695265.9013966209,4,2023,SpatialV3su,757,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+170,10432.556728901423,12,2023,SpatialV3su,757,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+171,1899003.2720023897,21,2023,SpatialV3su,757,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+172,11048.05005756228,22,2023,SpatialV3su,757,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+173,21394.29321826742,33,2023,SpatialV3su,757,22,Water,Natural,#112013,#32a65e,cobertura
+174,1181818.0640834086,4,2022,SpatialV3su,7612,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+175,43966.46389909935,12,2022,SpatialV3su,7612,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+176,451811.6766535819,21,2022,SpatialV3su,7612,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+177,2097.8004021987745,22,2022,SpatialV3su,7612,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+178,8920.668054671441,33,2022,SpatialV3su,7612,22,Water,Natural,#112013,#32a65e,cobertura
+179,1165820.4393138175,4,2023,SpatialV3su,7612,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+180,44692.42954476491,12,2023,SpatialV3su,7612,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+181,464940.09546776535,21,2023,SpatialV3su,7612,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+182,3676.816459324807,22,2023,SpatialV3su,7612,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+183,9484.892307277243,33,2023,SpatialV3su,7612,22,Water,Natural,#112013,#32a65e,cobertura
+184,832715.6985717259,4,2022,SpatialV3su,7613,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+185,259.0575386215389,12,2022,SpatialV3su,7613,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+186,866955.4752200092,21,2022,SpatialV3su,7613,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+187,2794.1338749411684,22,2022,SpatialV3su,7613,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+188,21868.52888939512,33,2022,SpatialV3su,7613,22,Water,Natural,#112013,#32a65e,cobertura
+189,769676.2595874295,4,2023,SpatialV3su,7613,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+190,434.9597073168706,12,2023,SpatialV3su,7613,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+191,901767.5300358824,21,2023,SpatialV3su,7613,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+192,30252.83452416348,22,2023,SpatialV3su,7613,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+193,22461.310239837723,33,2023,SpatialV3su,7613,22,Water,Natural,#112013,#32a65e,cobertura
+194,31016.98905097072,3,2022,SpatialV3su,756,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+195,1868577.8110283385,4,2022,SpatialV3su,756,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+196,51491.361151264005,12,2022,SpatialV3su,756,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+197,2030509.4024264263,21,2022,SpatialV3su,756,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+198,7611.94122471352,22,2022,SpatialV3su,756,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+199,41439.37904963431,33,2022,SpatialV3su,756,22,Water,Natural,#112013,#32a65e,cobertura
+200,28189.497613653133,3,2023,SpatialV3su,756,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+201,1727847.671222854,4,2023,SpatialV3su,756,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+202,50108.462085095554,12,2023,SpatialV3su,756,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+203,2166184.368348836,21,2023,SpatialV3su,756,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+204,12159.46860239931,22,2023,SpatialV3su,756,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+205,46157.41605839246,33,2023,SpatialV3su,756,22,Water,Natural,#112013,#32a65e,cobertura
+206,19487.455531841137,3,2022,SpatialV3su,7422,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+207,1333397.6852492867,4,2022,SpatialV3su,7422,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+208,15542.037642947733,12,2022,SpatialV3su,7422,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+209,630784.0022219379,21,2022,SpatialV3su,7422,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+210,1197.8208846231864,22,2022,SpatialV3su,7422,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+211,3895.0620136075895,33,2022,SpatialV3su,7422,22,Water,Natural,#112013,#32a65e,cobertura
+212,18438.229099786076,3,2023,SpatialV3su,7422,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+213,1139880.1008730992,4,2023,SpatialV3su,7422,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+214,17469.988601698307,12,2023,SpatialV3su,7422,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+215,815853.5235388366,21,2023,SpatialV3su,7422,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+216,7580.1506068615645,22,2023,SpatialV3su,7422,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+217,5082.070823942791,33,2023,SpatialV3su,7422,22,Water,Natural,#112013,#32a65e,cobertura
+218,2587543.2039088192,4,2022,SpatialV3su,7619,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+219,95414.70082010556,12,2022,SpatialV3su,7619,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+220,897755.4352878701,21,2022,SpatialV3su,7619,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+221,3259.066256754704,22,2022,SpatialV3su,7619,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+222,30385.704505700895,33,2022,SpatialV3su,7619,22,Water,Natural,#112013,#32a65e,cobertura
+223,2534843.7296913066,4,2023,SpatialV3su,7619,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+224,108621.76859005936,12,2023,SpatialV3su,7619,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+225,932640.4775490824,21,2023,SpatialV3su,7619,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+226,6449.467795302058,22,2023,SpatialV3su,7619,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+227,31802.667153501243,33,2023,SpatialV3su,7619,22,Water,Natural,#112013,#32a65e,cobertura
+228,23784.70525213611,3,2022,SpatialV3su,759,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+229,343769.1887256198,4,2022,SpatialV3su,759,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+230,15295.643928146574,12,2022,SpatialV3su,759,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+231,1006761.569420695,21,2022,SpatialV3su,759,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+232,4135.956227265212,22,2022,SpatialV3su,759,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+233,2412.1474125455256,33,2022,SpatialV3su,759,22,Water,Natural,#112013,#32a65e,cobertura
+234,23857.75463311628,3,2023,SpatialV3su,759,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+235,353771.15518490627,4,2023,SpatialV3su,759,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+236,21933.084726689187,12,2023,SpatialV3su,759,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+237,986597.0604650334,21,2023,SpatialV3su,759,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+238,7183.109965466418,22,2023,SpatialV3su,759,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+239,2817.045991179987,33,2023,SpatialV3su,759,22,Water,Natural,#112013,#32a65e,cobertura
+240,1312.788043721925,3,2022,SpatialV3su,7621,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+241,333018.97739844135,4,2022,SpatialV3su,7621,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+242,259807.1798741893,21,2022,SpatialV3su,7621,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+243,210.07280967062573,22,2022,SpatialV3su,7621,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+244,49.33250031810088,33,2022,SpatialV3su,7621,22,Water,Natural,#112013,#32a65e,cobertura
+245,1255.9211795655508,3,2023,SpatialV3su,7621,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+246,331512.6910809976,4,2023,SpatialV3su,7621,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+247,261477.04941936693,21,2023,SpatialV3su,7621,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+248,104.08159529600854,22,2023,SpatialV3su,7621,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+249,48.60735112606274,33,2023,SpatialV3su,7621,22,Water,Natural,#112013,#32a65e,cobertura
+250,511.0329172335747,3,2022,SpatialV3su,7421,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+251,671387.5751125097,4,2022,SpatialV3su,7421,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+252,2656.6883074094258,12,2022,SpatialV3su,7421,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+253,248328.3186351932,21,2022,SpatialV3su,7421,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+254,563.9505200480864,22,2022,SpatialV3su,7421,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+255,121.41259586792,33,2022,SpatialV3su,7421,22,Water,Natural,#112013,#32a65e,cobertura
+256,456.75920002728526,3,2023,SpatialV3su,7421,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+257,592241.2119775186,4,2023,SpatialV3su,7421,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+258,2624.684148385796,12,2023,SpatialV3su,7421,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+259,305407.3704115368,21,2023,SpatialV3su,7421,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+260,22574.204281548955,22,2023,SpatialV3su,7421,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+261,264.7480688604616,33,2023,SpatialV3su,7421,22,Water,Natural,#112013,#32a65e,cobertura
+262,487148.3694534455,3,2022,SpatialV3su,753,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+263,1654578.7387805425,4,2022,SpatialV3su,753,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+264,35593.59590930509,12,2022,SpatialV3su,753,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+265,979235.4195718804,21,2022,SpatialV3su,753,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+266,24761.583713008666,22,2022,SpatialV3su,753,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+267,35925.41651567412,33,2022,SpatialV3su,753,22,Water,Natural,#112013,#32a65e,cobertura
+268,457742.6836588283,3,2023,SpatialV3su,753,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+269,1622006.032027786,4,2023,SpatialV3su,753,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+270,36546.90925956138,12,2023,SpatialV3su,753,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+271,1022745.253940852,21,2023,SpatialV3su,753,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+272,38250.49048175678,22,2023,SpatialV3su,753,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+273,39951.75457509512,33,2023,SpatialV3su,753,22,Water,Natural,#112013,#32a65e,cobertura
+274,129141.95715657914,3,2022,SpatialV3su,7741,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+275,1672438.9408997905,4,2022,SpatialV3su,7741,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+276,46405.87374738577,12,2022,SpatialV3su,7741,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+277,1330080.62556998,21,2022,SpatialV3su,7741,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+278,1539.4747169417983,22,2022,SpatialV3su,7741,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+279,4693.890137891153,33,2022,SpatialV3su,7741,22,Water,Natural,#112013,#32a65e,cobertura
+280,117253.48178932095,3,2023,SpatialV3su,7741,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+281,1473351.0733724493,4,2023,SpatialV3su,7741,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+282,49832.75465575013,12,2023,SpatialV3su,7741,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+283,1526223.4965082556,21,2023,SpatialV3su,7741,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+284,8726.031732204128,22,2023,SpatialV3su,7741,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+285,8913.924170755661,33,2023,SpatialV3su,7741,22,Water,Natural,#112013,#32a65e,cobertura
+286,10454.560961004465,3,2022,SpatialV3su,764,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+287,333868.62728241226,4,2022,SpatialV3su,764,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+288,348415.1115314756,21,2022,SpatialV3su,764,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+289,1858.196725497804,22,2022,SpatialV3su,764,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+290,1193.451005669495,33,2022,SpatialV3su,764,22,Water,Natural,#112013,#32a65e,cobertura
+291,10387.199934180971,3,2023,SpatialV3su,764,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+292,325954.3497400762,4,2023,SpatialV3su,764,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+293,356374.7729991821,21,2023,SpatialV3su,764,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+294,1844.445786940409,22,2023,SpatialV3su,764,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+295,1229.1790456786152,33,2023,SpatialV3su,764,22,Water,Natural,#112013,#32a65e,cobertura
+296,12031.954791543592,3,2022,SpatialV3su,763,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+297,2237181.7848704457,4,2022,SpatialV3su,763,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+298,37891.55814985931,12,2022,SpatialV3su,763,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+299,1534727.1556313343,21,2022,SpatialV3su,763,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+300,1556.356160776822,22,2022,SpatialV3su,763,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+301,19498.956250842195,33,2022,SpatialV3su,763,22,Water,Natural,#112013,#32a65e,cobertura
+302,11556.650579584824,3,2023,SpatialV3su,763,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+303,2189509.873808689,4,2023,SpatialV3su,763,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+304,41246.56922769712,12,2023,SpatialV3su,763,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+305,1577961.5311291732,21,2023,SpatialV3su,763,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+306,3169.5234991094844,22,2023,SpatialV3su,763,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+307,19443.61761044298,33,2023,SpatialV3su,763,22,Water,Natural,#112013,#32a65e,cobertura
+308,10297.013178767507,3,2022,SpatialV3su,7622,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+309,897289.0144733876,4,2022,SpatialV3su,7622,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+310,183499.08677134555,21,2022,SpatialV3su,7622,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+311,1755.991913130401,22,2022,SpatialV3su,7622,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+312,1695.249015885821,33,2022,SpatialV3su,7622,22,Water,Natural,#112013,#32a65e,cobertura
+313,8501.090821269068,3,2023,SpatialV3su,7622,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+314,855853.6281545211,4,2023,SpatialV3su,7622,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+315,226989.86010708785,21,2023,SpatialV3su,7622,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+316,1262.1959578456042,22,2023,SpatialV3su,7622,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+317,1929.5803118377544,33,2023,SpatialV3su,7622,22,Water,Natural,#112013,#32a65e,cobertura
+318,54314.03867834028,3,2022,SpatialV3su,752,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+319,850917.0086450935,4,2022,SpatialV3su,752,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+320,3141.026372378384,12,2022,SpatialV3su,752,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+321,480594.6425571319,21,2022,SpatialV3su,752,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+322,632.1487534826184,22,2022,SpatialV3su,752,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+323,16081.848022915916,33,2022,SpatialV3su,752,22,Water,Natural,#112013,#32a65e,cobertura
+324,49272.10927706332,3,2023,SpatialV3su,752,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+325,774732.6959292251,4,2023,SpatialV3su,752,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+326,3133.905679911462,12,2023,SpatialV3su,752,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+327,554981.778947838,21,2023,SpatialV3su,752,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+328,2537.9701634369508,22,2023,SpatialV3su,752,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+329,21022.253031890858,33,2023,SpatialV3su,752,22,Water,Natural,#112013,#32a65e,cobertura
+330,306.7468107556886,3,2022,SpatialV3su,777,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+331,665.3809832420454,4,2022,SpatialV3su,777,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+332,159.10878571928174,12,2022,SpatialV3su,777,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+333,208.3979102567308,21,2022,SpatialV3su,777,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+334,0.1857011882228477,22,2022,SpatialV3su,777,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+335,193.3388973003553,3,2023,SpatialV3su,777,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+336,583.0793933614835,4,2023,SpatialV3su,777,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+337,177.14385654878532,12,2023,SpatialV3su,777,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+338,385.4686808204314,21,2023,SpatialV3su,777,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+339,0.7893631309120328,22,2023,SpatialV3su,777,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+340,1162998.0503388613,4,2022,SpatialV3su,7617,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+341,30.79517744762944,12,2022,SpatialV3su,7617,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+342,705660.5353968324,21,2022,SpatialV3su,7617,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+343,816.6784463201537,22,2022,SpatialV3su,7617,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+344,267902.93109750253,33,2022,SpatialV3su,7617,22,Water,Natural,#112013,#32a65e,cobertura
+345,1128392.814788411,4,2023,SpatialV3su,7617,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+346,582.4698944120042,12,2023,SpatialV3su,7617,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+347,736209.751776708,21,2023,SpatialV3su,7617,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+348,2094.75286196953,22,2023,SpatialV3su,7617,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+349,270129.2011354115,33,2023,SpatialV3su,7617,22,Water,Natural,#112013,#32a65e,cobertura
+350,97885.72253176974,3,2022,SpatialV3su,776,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+351,1342346.2327258245,4,2022,SpatialV3su,776,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+352,73655.39804788327,12,2022,SpatialV3su,776,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+353,2589158.456567032,21,2022,SpatialV3su,776,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+354,7678.773894934123,22,2022,SpatialV3su,776,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+355,11389.939731908882,33,2022,SpatialV3su,776,22,Water,Natural,#112013,#32a65e,cobertura
+356,90894.41293673876,3,2023,SpatialV3su,776,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+357,1240933.1265574908,4,2023,SpatialV3su,776,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+358,81851.70115189174,12,2023,SpatialV3su,776,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+359,2668279.830062766,21,2023,SpatialV3su,776,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+360,27732.792498003917,22,2023,SpatialV3su,776,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+361,12422.66029243794,33,2023,SpatialV3su,776,22,Water,Natural,#112013,#32a65e,cobertura
+362,44440.38889600985,3,2022,SpatialV3su,76116,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+363,830091.9957756104,4,2022,SpatialV3su,76116,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+364,79415.08678533132,12,2022,SpatialV3su,76116,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+365,1341458.1215156384,21,2022,SpatialV3su,76116,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+366,5026.928194060131,22,2022,SpatialV3su,76116,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+367,71036.72753057392,33,2022,SpatialV3su,76116,22,Water,Natural,#112013,#32a65e,cobertura
+368,37969.81555038281,3,2023,SpatialV3su,76116,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+369,765177.4574152037,4,2023,SpatialV3su,76116,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+370,88325.68474410399,12,2023,SpatialV3su,76116,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+371,1394135.8760874704,21,2023,SpatialV3su,76116,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+372,16339.403959590178,22,2023,SpatialV3su,76116,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+373,69521.0109403634,33,2023,SpatialV3su,76116,22,Water,Natural,#112013,#32a65e,cobertura
+374,139879.99350367975,3,2022,SpatialV3su,772,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+375,608853.3430656695,4,2022,SpatialV3su,772,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+376,16720.90866245538,12,2022,SpatialV3su,772,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+377,2717284.7756006927,21,2022,SpatialV3su,772,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+378,1652.2619387698185,22,2022,SpatialV3su,772,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+379,4296.620228984384,33,2022,SpatialV3su,772,22,Water,Natural,#112013,#32a65e,cobertura
+380,112754.54311238477,3,2023,SpatialV3su,772,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+381,570127.2895387758,4,2023,SpatialV3su,772,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+382,27995.35336393833,12,2023,SpatialV3su,772,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+383,2719310.8733581877,21,2023,SpatialV3su,772,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+384,52926.05728085872,22,2023,SpatialV3su,772,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+385,5573.786346002567,33,2023,SpatialV3su,772,22,Water,Natural,#112013,#32a65e,cobertura
+386,5165.870965404352,3,2022,SpatialV3su,773,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+387,10781.80395182663,4,2022,SpatialV3su,773,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+388,1972.495877161853,12,2022,SpatialV3su,773,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+389,356913.2508287478,21,2022,SpatialV3su,773,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+390,933.0555013420818,22,2022,SpatialV3su,773,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+391,119.26391689292764,33,2022,SpatialV3su,773,22,Water,Natural,#112013,#32a65e,cobertura
+392,4556.985957475402,3,2023,SpatialV3su,773,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+393,13085.984814741889,4,2023,SpatialV3su,773,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+394,2889.848281051112,12,2023,SpatialV3su,773,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+395,353244.63044157904,21,2023,SpatialV3su,773,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+396,1970.8618699097617,22,2023,SpatialV3su,773,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+397,137.42967661750345,33,2023,SpatialV3su,773,22,Water,Natural,#112013,#32a65e,cobertura
+398,75.92985690827041,4,2022,SpatialV3su,7492,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+399,75.92985690827041,4,2023,SpatialV3su,7492,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+400,384565.33665869694,4,2022,SpatialV3su,76111,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+401,10459.72916536321,12,2022,SpatialV3su,76111,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+402,1446466.9879522417,21,2022,SpatialV3su,76111,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+403,1689.9077507735412,22,2022,SpatialV3su,76111,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+404,11551.951848967296,33,2022,SpatialV3su,76111,22,Water,Natural,#112013,#32a65e,cobertura
+405,379436.58999324514,4,2023,SpatialV3su,76111,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+406,14870.119291618616,12,2023,SpatialV3su,76111,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+407,1445323.0444540964,21,2023,SpatialV3su,76111,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+408,3181.4238056759214,22,2023,SpatialV3su,76111,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+409,11922.735831461268,33,2023,SpatialV3su,76111,22,Water,Natural,#112013,#32a65e,cobertura
+410,36511.01040594145,3,2022,SpatialV3su,741,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+411,530509.0242985131,4,2022,SpatialV3su,741,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+412,4473.815572636806,12,2022,SpatialV3su,741,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+413,95053.58450528224,21,2022,SpatialV3su,741,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+414,604.4024088605092,22,2022,SpatialV3su,741,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+415,2271.9005241742434,33,2022,SpatialV3su,741,22,Water,Natural,#112013,#32a65e,cobertura
+416,36070.58284285759,3,2023,SpatialV3su,741,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+417,523409.0676294624,4,2023,SpatialV3su,741,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+418,3999.98129338169,12,2023,SpatialV3su,741,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+419,102127.5080665516,21,2023,SpatialV3su,741,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+420,1431.8703041350966,22,2023,SpatialV3su,741,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+421,2384.7275790428853,33,2023,SpatialV3su,741,22,Water,Natural,#112013,#32a65e,cobertura
+422,227323.7623428142,3,2022,SpatialV3su,745,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+423,362539.9617329054,4,2022,SpatialV3su,745,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+424,63084.82349309067,21,2022,SpatialV3su,745,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+425,142.6287027568501,22,2022,SpatialV3su,745,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+426,782.4284274789231,33,2022,SpatialV3su,745,22,Water,Natural,#112013,#32a65e,cobertura
+427,205875.79263726677,3,2023,SpatialV3su,745,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+428,377758.1765422268,4,2023,SpatialV3su,745,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+429,69341.37691054886,21,2023,SpatialV3su,745,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+430,152.45748153279607,22,2023,SpatialV3su,745,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+431,745.8011274497142,33,2023,SpatialV3su,745,22,Water,Natural,#112013,#32a65e,cobertura
+432,5859.301858974444,3,2022,SpatialV3su,775,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+433,35356.89551459755,4,2022,SpatialV3su,775,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+434,554.0188144175576,12,2022,SpatialV3su,775,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+435,141238.41892892917,21,2022,SpatialV3su,775,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+436,67.7140046565995,22,2022,SpatialV3su,775,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+437,66.96172471571973,33,2022,SpatialV3su,775,22,Water,Natural,#112013,#32a65e,cobertura
+438,5944.614225770491,3,2023,SpatialV3su,775,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+439,33281.41247104676,4,2023,SpatialV3su,775,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+440,1255.1521777205417,12,2023,SpatialV3su,775,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+441,142385.19650637676,21,2023,SpatialV3su,775,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+442,202.9567154592473,22,2023,SpatialV3su,775,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+443,73.97874992498653,33,2023,SpatialV3su,775,22,Water,Natural,#112013,#32a65e,cobertura
+444,1080756.3058360033,4,2022,SpatialV3su,755,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+445,780006.8451473156,21,2022,SpatialV3su,755,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+446,15217.398331567854,22,2022,SpatialV3su,755,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+447,38192.96909584493,33,2022,SpatialV3su,755,22,Water,Natural,#112013,#32a65e,cobertura
+448,1035825.6992747304,4,2023,SpatialV3su,755,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+449,819140.4377489578,21,2023,SpatialV3su,755,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+450,19567.70646464948,22,2023,SpatialV3su,755,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+451,39639.67492244816,33,2023,SpatialV3su,755,22,Water,Natural,#112013,#32a65e,cobertura
+452,2251170.7865777495,3,2022,SpatialV3su,Caatinga,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+453,41222093.18767308,4,2022,SpatialV3su,Caatinga,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+454,682162.2172469171,12,2022,SpatialV3su,Caatinga,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+455,41175796.990759544,21,2022,SpatialV3su,Caatinga,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+456,142667.8702796168,22,2022,SpatialV3su,Caatinga,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+457,763654.4644676779,33,2022,SpatialV3su,Caatinga,22,Water,Natural,#112013,#32a65e,cobertura
+458,2066457.0471625377,3,2023,SpatialV3su,Caatinga,22,Forest Formation,Natural,#1f8d49,#32a65e,cobertura
+459,38391095.63122596,4,2023,SpatialV3su,Caatinga,22,Savanna Formation,Natural,#7dc975,#32a65e,cobertura
+460,757841.9019292238,12,2023,SpatialV3su,Caatinga,22,Grassland,Natural,#d6bc74,#32a65e,cobertura
+461,43779246.0917443,21,2023,SpatialV3su,Caatinga,22,Mosaic of Uses,Antrópico,#edde8e,#FFFFB2,cobertura
+462,430806.1261575379,22,2023,SpatialV3su,Caatinga,22,Non vegetated area,Antrópico,#f5b3c8,#FFFFB2,cobertura
+463,812098.7187846227,33,2023,SpatialV3su,Caatinga,22,Water,Natural,#112013,#32a65e,cobertura
