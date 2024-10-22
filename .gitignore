@@ -1,3 +1,7 @@
 venv/*
 src/conf_matrix/*
 !src/conf_matrix/.gitkeep
+src/dbase/*
+!src/dbase/.gitkeep
+src/dbaseS2/*
+!src/dbaseS2/.gitkeep

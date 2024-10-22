@@ -466,7 +466,6 @@ def plotMultipleCoberturas(df_Areatmp):
     figPlotC.show()
     
 
-
 def plot_graficoAccuracyErrobyClass(dfErrosClass, typeErro):
     colunasClass = ['3', '4', '12', '21','22', '33'] #  '15', '18', 
     # print("matriz erroi \n ", dfErrosClass)
